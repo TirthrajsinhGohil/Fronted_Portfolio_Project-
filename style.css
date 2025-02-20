@@ -361,24 +361,33 @@ main {
   .pc-nav {
     display: flex;
     padding: 1% 1%;
+    width: 18vw;
   }
   .pc-nav p {
-    margin-right: 15px;
+    margin-right: 1vw;
     display: flex;
     font-size: 0.8rem;
     letter-spacing: 1px;
     overflow: hidden;
+    font-size: 0.9vw;
   }
   .box h4 {
-    letter-spacing: 2px;
+    height: 2.4rem;
+    /* width: 6.4rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1rem;
     margin-left: -20px;
+    font-size: 0.8vw;
   }
   .box svg {
     display: none;
   }
 
   .box2 {
-    width: 33.5%;
+    width: 33%;
+    height: 6.5%;
     display: flex;
     top: 2.1rem;
     margin-left: 32%;
@@ -441,20 +450,23 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 45rem;
+  }
+  .section4 .abc h2 {
+    margin-right: 60vw;
   }
   .section4 .collec_image {
+    width: 70%;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 images per row */
     justify-content: center; /* Centers the entire grid */
     align-items: center; /* Aligns images in the center */
     gap: 5px; /* Reduce space between images */
-    width: fit-content; /* Make grid take only needed space */
+    /* width: fit-content; Make grid take only needed space */
     margin: 0 auto; /* Center the grid horizontally */
   }
   .section4 .images {
-    height: 32rem;
-    width: 42rem;
+    height: 33vw;
+    width: 43vw;
     margin-right: 0.5rem;
   }
 
