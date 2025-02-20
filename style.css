@@ -61,7 +61,7 @@ main {
   font-size: 2rem;
   font-weight: 100;
   left: 0%;
-  margin-right: 35%;
+  /* margin-right: 35%; */
   color: #dac5a7;
   cursor: pointer;
 }
@@ -74,6 +74,7 @@ main {
   font-size: 0.8rem;
   font-family: "Satoshi", sans-serif;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .box svg {
@@ -100,6 +101,15 @@ main {
 
 .pc-nav {
   display: none;
+}
+
+.headerInformation {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.hamburgerMenu {
+  cursor: pointer;
 }
 
 .section1 {
@@ -361,8 +371,9 @@ main {
   .pc-nav {
     display: flex;
     padding: 1% 1%;
-    width: 18vw;
+    /* width: 18vw; */
   }
+
   .pc-nav p {
     margin-right: 1vw;
     display: flex;
