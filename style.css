@@ -87,7 +87,7 @@ main {
 .box2 {
   /*for blur background*/
   position: fixed;
-  top: 20px;
+  top: 22px;
   left: 20px;
   right: 20px;
   padding: 10px 20px;
@@ -398,9 +398,9 @@ main {
 
   .box2 {
     width: 33%;
-    height: 6.5%;
+    height: 3.6rem;
     display: flex;
-    top: 2.1rem;
+    top: 35px;
     margin-left: 32%;
     /* background-color: aqua; */
   }
